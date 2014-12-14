@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAA5741E1A3DD345006EAB9C /* DiningPhilosophers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAA5741C1A3DD345006EAB9C /* DiningPhilosophers.cpp */; };
 		CAAFD9B91A196EDC00FEEAD6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAAFD9B81A196EDC00FEEAD6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CAA5741C1A3DD345006EAB9C /* DiningPhilosophers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiningPhilosophers.cpp; sourceTree = "<group>"; };
+		CAA5741D1A3DD345006EAB9C /* DiningPhilosophers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningPhilosophers.h; sourceTree = "<group>"; };
 		CAAFD9B51A196EDC00FEEAD6 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAFD9B81A196EDC00FEEAD6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +60,8 @@
 		CAAFD9B71A196EDC00FEEAD6 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				CAA5741C1A3DD345006EAB9C /* DiningPhilosophers.cpp */,
+				CAA5741D1A3DD345006EAB9C /* DiningPhilosophers.h */,
 				CAAFD9B81A196EDC00FEEAD6 /* main.cpp */,
 			);
 			path = Test;
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA5741E1A3DD345006EAB9C /* DiningPhilosophers.cpp in Sources */,
 				CAAFD9B91A196EDC00FEEAD6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +238,7 @@
 				CAAFD9BE1A196EDC00FEEAD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
