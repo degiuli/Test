@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CAA5741E1A3DD345006EAB9C /* DiningPhilosophers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAA5741C1A3DD345006EAB9C /* DiningPhilosophers.cpp */; };
 		CAAFD9B91A196EDC00FEEAD6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAAFD9B81A196EDC00FEEAD6 /* main.cpp */; };
+		CAFC21511A46188A006BC5BD /* beatiful_std_arg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAFC214F1A46188A006BC5BD /* beatiful_std_arg.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		CAA5741D1A3DD345006EAB9C /* DiningPhilosophers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningPhilosophers.h; sourceTree = "<group>"; };
 		CAAFD9B51A196EDC00FEEAD6 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAFD9B81A196EDC00FEEAD6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CAFC214F1A46188A006BC5BD /* beatiful_std_arg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = beatiful_std_arg.cpp; sourceTree = "<group>"; };
+		CAFC21501A46188A006BC5BD /* beatiful_std_arg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beatiful_std_arg.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				CAA5741C1A3DD345006EAB9C /* DiningPhilosophers.cpp */,
 				CAA5741D1A3DD345006EAB9C /* DiningPhilosophers.h */,
 				CAAFD9B81A196EDC00FEEAD6 /* main.cpp */,
+				CAFC214F1A46188A006BC5BD /* beatiful_std_arg.cpp */,
+				CAFC21501A46188A006BC5BD /* beatiful_std_arg.h */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				CAA5741E1A3DD345006EAB9C /* DiningPhilosophers.cpp in Sources */,
 				CAAFD9B91A196EDC00FEEAD6 /* main.cpp in Sources */,
+				CAFC21511A46188A006BC5BD /* beatiful_std_arg.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
